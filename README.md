@@ -85,4 +85,15 @@ Then save this file given below
       [Install]
       WantedBy=multi-user.target
 
+# 7 Start the Service
+
+      systemctl daemon-reload
+      systemctl restart systemd-journald
+
+for cosmovisor
+      systemctl enable cosmovisor.service
+      systemctl start cosmovisor.service
+
+
+
 
