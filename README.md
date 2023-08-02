@@ -40,6 +40,10 @@ custom_moniker = user-defined name or identifier for your node
       sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.0025uatom"/' app.toml
       sed -i 's/seeds = ""/seeds = "639d50339d7045436c756a042906b9a69970913f@seed-01.theta-testnet.polypore.xyz:26656,3e506472683ceb7ed75c1578d092c79785c27857@seed-02.theta-testnet.polypore.xyz:26656"/' config.toml
 
+# 4. State setup
 
       
+Visit a testnet explorer (opens new window)to find the block and hash for the current height - 1000.
+Set these parameters in the code snippet below: <BLOCK_HEIGHT> and <BLOCK_HASH>.
+
 
