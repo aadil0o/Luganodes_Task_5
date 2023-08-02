@@ -9,7 +9,7 @@ Memory: At least 8GB RAM (16GB recommended).
 Storage: At least 50GB of free disk space.
 Internet Connection: A stable internet connection is necessary to download dependencies.
 
-#Installation Steps
+# Installation Steps
 
 # 1. Install build tools and Go.
       `sudo apt-get update`
@@ -17,4 +17,12 @@ Internet Connection: A stable internet connection is necessary to download depen
       `wget https://go.dev/dl/go1.20.3.linux-amd64.tar.gz`
       `sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz`
       `export PATH=$PATH:/usr/local/go/bin`
+# 2. Build the gaiad binary and initialize the chain home folder.
+
+      cd $HOME
+      git clone https://github.com/cosmos/gaia
+      cd gaia
+      make install
+      export PATH=$PATH:$HOME/go/bin
+      gaiad init <custom_moniker>
 
