@@ -1,7 +1,7 @@
-##Cosmos Setup Guide
+## Cosmos Setup Guide
 
 
-#Requirements
+# Requirements
 
 Operating System: Linux (Ubuntu, CentOS, or similar) or macOS (Windows may work, but Linux/macOS is recommended for development).
 Processor: 64-bit Intel or AMD processor with support for VT-x/AMD-V virtualization.
