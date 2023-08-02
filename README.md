@@ -43,7 +43,8 @@ custom_moniker = user-defined name or identifier for your node
 # 4. State setup
 
       
-Visit a testnet explorer (opens new window)to find the block and hash for the current height - 1000.
-Set these parameters in the code snippet below: <BLOCK_HEIGHT> and <BLOCK_HASH>.
+•Visit a testnet explorer (https://explorer.theta-testnet.polypore.xyz/)to find the block and hash for the current height - 1000.
+
+•Set these parameters in the code snippet below: <BLOCK_HEIGHT> and <BLOCK_HASH>.
 
 
